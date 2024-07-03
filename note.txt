@@ -1,0 +1,4 @@
+Run 
+docker compose --env-file .env.dev up --build
+Create superuser : 
+docker exec -it django-web python manage.py createsuperuser
